@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    padding: 1.5em;
+}
+
+.btn {
+    margin: 1em auto;
+    padding: .5em .8em;
+    background: #333;
+    border: none;
+    outline: none;
+}
+
+.btn > a {
+    text-decoration: none;
+    color: #fff;
+}
+
+[type="submit"] {
+    color: #fff;
+}
+
+.form-container > * {
+    margin: 1em auto;
+    display: block;
+    text-align: center;
+}

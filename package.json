@@ -1,0 +1,14 @@
+{
+    "name": "router-example",
+    "version": "1.0.0",
+    "description": "A simple web application for demonstrating routing concept in node.js.",
+    "main": "main.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "vinaykumargb",
+    "license": "ISC",
+    "dependencies": {
+        "http-status-codes": "^2.1.4"
+    }
+}
