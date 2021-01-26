@@ -7,7 +7,7 @@ module.exports = {
         fs.readFile(path, (err, data) => {
             if (err) {
                 res.writeHead(httpStatus.INTERNAL_SERVER_ERROR, contentTypes.html);
-                res.end("<h1>There was error serving content from the server.");
+                res.end("<h1>There was error serving content from the server.</h1>");
             }
             res.end(data);
         });
